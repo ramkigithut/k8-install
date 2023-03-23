@@ -1,0 +1,12 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: test-cluster-rrk
+  region: us-east-1
+
+managedNodeGroups:
+  - name: test8
+    spot: true
+    ssh:
+      publicKeyName: kubernetes
