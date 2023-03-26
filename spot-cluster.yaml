@@ -2,11 +2,11 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: test-cluster-krkv
+  name: test-cluster-kkjr
   region: us-east-1
 
 managedNodeGroups:
-  - name: test11
+  - name: test12
     spot: true
     ssh:
       publicKeyName: K1
